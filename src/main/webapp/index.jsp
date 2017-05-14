@@ -28,6 +28,12 @@
 
   <p>This is <%= HelloInfo.getInfo() %>.</p>
   <table>
+	  <tr>
+      <td>We are going to do some operation on this image</td>
+    </tr>
+	   <tr>
+      <td><img src='https://storage.googleapis.com/laykart-165108.appspot.com/image.jpg' alt='AppEngine logo rotated' />"</td>
+    </tr>
      <tr>
       <td colspan="2" style="font-weight:bold;">IMAGES PROCESSING SERVLET:</td>
     </tr>
@@ -39,7 +45,7 @@
     </tr>
     <tr>
     <td>
-    <form method="POST" action="/image" enctype="multipart/form-data">
+    <!-- <form method="POST" action="/image" enctype="multipart/form-data">
 
     <div class="form-group hidden">
       <label for="imageUrl">Select Image :</label>
@@ -47,7 +53,7 @@
     </div>
 
     <button type="submit" class="btn btn-success">Save</button>
-  </form>
+  </form> -->
   </td>
     </tr> 
     
